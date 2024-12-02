@@ -23,3 +23,7 @@ class BaseTemplate(base.BaseV21):
 
 class PolicyTemplates(BaseTemplate):
     template_type = "pbslb"
+
+
+class HttpTemplates(BaseTemplate):
+    template_type = "http"
